@@ -1,0 +1,20 @@
+actions:
+  - noop
+  - move_left
+  - move_right
+  - move_up
+  - move_down
+
+materials:
+  - water
+  - sand
+  - grass
+  - tree
+  - bridge
+  - goal
+
+walkable:
+  - grass
+  - sand
+  - water
+  - bridge

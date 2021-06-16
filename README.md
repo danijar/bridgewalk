@@ -37,7 +37,7 @@ The following optional command line flags are available:
 | `--window <width> <height>` | 800 800 | Window size in pixels, used as width and height. |
 | `--fps <integer>` | 5 | How many times to update the environment per second. |
 | `--record <filename>.mp4` | None | Record a video of the trajectory. |
-| `--view <width> <height>` | 7 7 | The layout size in cells; determines view distance. |
+| `--view <width> <height>` | 15 15 | The layout size in cells; determines view distance. |
 | `--length <integer>` | None | Time limit for the episode. |
 | `--seed <integer>` | None | Determines world generation and creatures. |
 
@@ -76,7 +76,7 @@ Episodes terminate after 250 steps.
 ### Observation Space
 
 Each observation is an RGB image that shows a local view of the world around
-the player, as well as the inventory state of the agent.
+the player.
 
 ### Action Space
 
